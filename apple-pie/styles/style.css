@@ -1,35 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
 body {
-    font-family: Roboto;
+    font-family: Roboto;  
 }
 
 .header {
-background-image: url("/Users/anna/Desktop/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+background-image: url(/Users/anna/Desktop/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
 position: 0 0;
 repeat: no-repeat;
 size: cover;
-height: 650px;
+height: 550px;
 padding-top: 50px;
 position: relative;
 }
 
 h1 {
-    font-size: 9em;
+    font-size: 6em;
     color: white;
     text-align: center;  
 }
 
 .generalInfo {
     text-align: center; 
+    border-bottom: 1px solid lightgray;
 }
 
-.generalInfo p {
-    text-align: center;
-    padding: 10 30;
+.generalInfo > p {
+  width: 550px;
+  margin: 0 auto;
 }
 
+.generalInfo img {
+    width: 300px;
+}
+
+  
+
+.ingredients {
+    border-bottom: 1px solid lightgray;
+}
 
 .ingredients img {
-    text-align: center; 
+    width: 300px;
+    display: block;
+     margin: 0 auto;
 }
+
+
+
+ol {
+    list-style-type: none;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
