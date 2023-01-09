@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-family: Roboto;
+}
+
 .header {
 background-image: url("/Users/anna/Desktop/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
 position: 0 0;
@@ -16,13 +22,13 @@ h1 {
 
 .generalInfo {
     text-align: center; 
-
 }
 
-.generalInfo hr {
-    margin-top: 20px auto 30px auto;
-    width: 40%;
-    }
+.generalInfo p {
+    text-align: center;
+    padding: 10 30;
+}
+
 
 .ingredients img {
     text-align: center; 
