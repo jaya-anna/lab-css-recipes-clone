@@ -1,0 +1,29 @@
+.header {
+background-image: url("/Users/anna/Desktop/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+position: 0 0;
+repeat: no-repeat;
+size: cover;
+height: 650px;
+padding-top: 50px;
+position: relative;
+}
+
+h1 {
+    font-size: 9em;
+    color: white;
+    text-align: center;  
+}
+
+.generalInfo {
+    text-align: center; 
+
+}
+
+.generalInfo hr {
+    margin-top: 20px auto 30px auto;
+    width: 40%;
+    }
+
+.ingredients img {
+    text-align: center; 
+}
